@@ -19,3 +19,10 @@ a {
     line-height: 30px;
     color: #7D7987;
 }
+.header-2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
