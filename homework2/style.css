@@ -10,9 +10,11 @@
     gap: 32px;
 }
 .header_link {
+
     display: flex;
     margin-top: 94px;
     margin-bottom: 94px;
+    margin-left: 500px;
     gap: 22px;
 }
 .top_content {
@@ -21,6 +23,8 @@
     margin-bottom: 305px;
     align-items: flex-start;
     flex-direction: row-reverse;
+    justify-content: center;
+    gap: 39px;
 }
 .top_info{
     margin-top: 115px;
@@ -33,6 +37,8 @@
     margin-bottom: 37px;
 }
 .top_logos{
+    display: flex;
     margin-top: 97px;
     margin-bottom: 96px;
+    justify-content: space-around;
 }
