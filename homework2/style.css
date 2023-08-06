@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto/Roboto-Medium.ttf');
 }
 .header {
     display: flex;
@@ -27,6 +32,7 @@
     gap: 39px;
 }
 .top_info{
+    font-family: Roboto;
     margin-top: 115px;
     margin-bottom: 305px;
 }
@@ -40,5 +46,24 @@
     display: flex;
     margin-top: 97px;
     margin-bottom: 96px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 48px;
+}
+
+.buttons1 {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+.buttons2 {
+    color: #AAA;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFF;
 }
