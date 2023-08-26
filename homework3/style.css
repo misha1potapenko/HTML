@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header {
+    display: grid;
+}
+.header_block{
+    display: flex;
+    justify-self: center;
+} 
+.header_content {
+    width: 310px;
+    height: 226px;
+
+}
+.header_content_center {
+    width: 370px;
+    height: 291px;
+}
+.button_header {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
