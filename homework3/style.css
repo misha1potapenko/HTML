@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./font/font2/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./font/font2/Gilroy-Regular.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +18,7 @@
 .header_block{
     display: flex;
     justify-self: center;
+    padding: 100px;
 } 
 .header_content {
     width: 310px;
@@ -26,4 +36,38 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 16.5px */
+}
+.parag{
+    color: #AAA;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+.main_heading{
+    display: grid;
+    justify-items: center;
+}
+.main_block{
+    display: flex;
+    justify-self: center;
+}
+
+.block {
+    width: 370px;
+    height: 549px;
+}
+
+.parag_main{
+    display: flex;
+    width: 682px;
+    height: 48px;
+    color: #AAA;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    justify-self: center;
 }
