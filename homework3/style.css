@@ -45,6 +45,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 22.5px */
+
 }
 .main_heading{
     display: grid;
@@ -52,7 +53,7 @@
 }
 .main_block{
     display: flex;
-    justify-self: center;
+    justify-content: center;
 }
 
 .block {
@@ -70,6 +71,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 22.5px */
+    margin: 0 auto;
     justify-content: center;
 }
 .main_button{
