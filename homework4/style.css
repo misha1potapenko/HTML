@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .img0{
     position: relative;
     top: 0;
@@ -71,5 +72,10 @@ line-height: normal;
 
 }
 .second_products{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 360px 360px 360px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
     display: grid;
 }
