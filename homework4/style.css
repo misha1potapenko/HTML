@@ -72,6 +72,7 @@ line-height: normal;
 
 }
 .second_products{
+    margin-top: 65px;
     display: flex;
     justify-content: center;
     grid-template-columns: 360px 360px 360px;
