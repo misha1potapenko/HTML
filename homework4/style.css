@@ -70,3 +70,6 @@ line-height: normal;
     line-height: normal;
 
 }
+.second_products{
+    display: grid;
+}

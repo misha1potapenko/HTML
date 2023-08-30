@@ -1,0 +1,7 @@
+.header{
+    display: flex;
+}
+.first_product{
+    display: flex;
+    justify-content: center;
+}
