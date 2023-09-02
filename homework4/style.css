@@ -5,8 +5,10 @@
 
 .header{
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 .img0{
     display: block;
