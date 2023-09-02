@@ -1,10 +1,3 @@
-@font-face {
-	font-family: "Lato"; 
-	src: url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap'); 
-}
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +10,6 @@
 }
 .img0{
     display: block;
-
 
 }
 .img1{
@@ -43,45 +35,11 @@
 }
 .rectangle{
     position: relative;
-    left: 63px;
-}
-.head_first_product{
-    position: relative;
-    top: 350px;
-    left: 91px;
-    color: #222;
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+    
 }
 
-.text2_for_head_first{
-    position: relative;
-    top: 400px;
-    left: -193px;
-    color: #222;
-    font-family: Lato;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 
-}
 
-.text3_for_head_first{
-    position: relative;
-    left: -183px;
-    top: 400px;
-    color: #F16D7F;
-    font-family: Lato;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-}
 .second_products{
     margin-top: 65px;
     display: flex;
