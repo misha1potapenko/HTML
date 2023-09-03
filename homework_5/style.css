@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('./font/font2/Lato-Bold.ttf');
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('./font/font2/Lato-Light.ttf');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./font/font2/Lato-Regular.ttf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display:flex;
+    justify-content: center;
+}
+.block{
+    position: relative;
+    width: 1600px;
+    height: 75px;
+    background-color: #222222;
+
+}
+.img1{
+    position: absolute;
+    left: 231px;
+    top: 18px;
+}
+.img2{
+    position: absolute;
+    left: 316px;
+    top: 28px;
+}
+.img3{
+    position: absolute;
+    left: 1201px;
+    top: 26px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.first_products{
+    display: flex;
+    height: 764px;
+    align-items: center;
+    background-color: #F1E4E6;
+    width: 1600px;
+}
+.top_content_title{
+    width: 370px;
+    min-height: 93px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 16px;
+
+#the_band{
+    color: #222;
+    font-family: 'Lato-Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#of_luxerious{
+    color: #222;
+    font-family: 'Lato-Light';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fashion{
+    color: #F16D7F;
+    font-family: 'Lato-Light';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
