@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display:flex;
+    justify-content: center;
+}
+.block{
+    position: relative;
+    width: 1600px;
+    height: 75px;
+    background-color: #222222;
+
+}
+.img1{
+    position: absolute;
+    left: 231px;
+    top: 18px;
+}
+.img2{
+    position: absolute;
+    left: 316px;
+    top: 28px;
+}
+.img3{
+    position: absolute;
+    left: 1201px;
+    top: 26px;
+}
+.first_products{
+    display: flex;
+    height: 764px;
+    align-content: center;
+    align-items: center;
+    background-color: #F1E4E6;
+}
+.rectangle{
+    margin-top: 289px;
+}
