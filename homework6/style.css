@@ -28,12 +28,12 @@ body{
 
 }
 
-.top{
+.header{
     max-width: 1600px;
 
 }
 
-.menu_bar{
+.header_menu{
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ body{
     align-items: center;
     background-color: #F1E4E6;
     
-    gap:  3.96%;
+    /* gap:  3.96%; */
 }
 .right_part{
     display: flex;
@@ -100,7 +100,7 @@ body{
     font-size: 32px;
     font-weight: 700;
 }
-#the_band{
+.the_band{
     color: #222;
     font-family: 'Lato-Bold';
     font-size: 48px;
@@ -109,7 +109,7 @@ body{
     line-height: normal;
 }
 
-#of_luxerious{
+.of_luxerious{
     color: #222;
     font-family: 'Lato-Light';
     font-size: 32px;
@@ -127,7 +127,7 @@ body{
     line-height: normal;
 }
 
-.menu{
+.block_for_goods{
     display: grid;
     grid-template-rows: 260px 180px;
     grid-template-columns: 1140px;
@@ -136,8 +136,6 @@ body{
     align-items: start;
     justify-content: center;
      max-width: 1600px;
-    /* margin-left: 230px; */
-    /* margin-right: 230px; */
     
 }
 .menu_small{
@@ -151,28 +149,28 @@ body{
 
 }
 
-.menu_1{
+.block_1{
     display: block;
     position: relative;
    
     
 }
 
-.menu_2{
+.block_2{
     display: block;
     position: relative;
     
     
 }
 
-.menu_3{
+.block_3{
     display: block;
     position: relative;
    
     
 }
 
-.menu_4{
+.block_4{
     display: block;
     position: relative;
    
@@ -230,8 +228,7 @@ body{
     justify-content: flex-start;
     max-width: 1600px;
     align-items: center;
-    /* padding-left: 230px;
-    padding-right: 230px; */
+ 
 }
 .main_content_top{
     display: flex;
@@ -387,11 +384,13 @@ body{
 
 
  @media(max-width: 1024px){
-    .top{
+    .header{
         max-width: 1024px;
+        /* display: grid;
+        justify-content: center; */
 
     }
-    .menu_bar{
+    .header_menu{
         max-width: 1024px;
         padding-bottom: 18px;
         background-color: black;
@@ -418,12 +417,12 @@ body{
         line-height: 28.8px;
        
     }
-    #the_band{
+    .the_band{
         font-size: 44px;
         line-height: 52.8px;
     }
 
-    #of_luxerious{
+    .of_luxerious{
       
         font-size: 24px;
         
@@ -438,7 +437,7 @@ body{
         max-width: 368px;
 
     }    
-    .menu{
+    .block_for_goods{
         display: grid;
         max-width: 1024px;
         margin-left: 16px;
@@ -446,6 +445,7 @@ body{
         grid-template-rows: 167px 116px;
         grid-template-columns: 734.5px;
         gap: 19px;
+       
         
     }
     .menu_small{
